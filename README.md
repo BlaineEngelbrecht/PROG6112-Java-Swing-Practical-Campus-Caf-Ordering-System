@@ -191,9 +191,9 @@ The text area should initially be empty.
 
 1. Locate `Menu Bar` or `JMenuBar` in the Palette.
 2. Drag it onto the form.
-3. Add two menus: **File** and **Help**.
-4. Under File, add **Clear Form** and **Exit**.
-5. Under Help, add **About**.
+3. You will then see File and Edit on the Menu bar by default
+4. Under File, add two menu items (right click on "File" to add your first item, select Add from palette, select Menu Item) ; **Clear Form** and **Exit**.
+5. Under Edit, add **About**.
 
 Rename the menu items as follows:
 
