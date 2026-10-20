@@ -327,4 +327,66 @@ txtOrderSummary.setText(summary);
     private javax.swing.JTextField txtCustomerName;
     private javax.swing.JTextArea txtOrderSummary;
     // End of variables declaration//GEN-END:variables
+
+   /*
+ * PART F: REFLECTIVE QUESTIONS
+ *
+ * 1. What is the difference between a JTextField and a JTextArea?
+ * A JTextField only holds a single line of text, so it suits short input
+ * like a customer's name. A JTextArea can hold many lines, so it suits
+ * longer output like the order summary.
+ *
+ * 2. Why do we use a ButtonGroup with radio buttons?
+ * A ButtonGroup links the radio buttons together so only one can be
+ * selected at a time. Without it, the customer could select Small,
+ * Regular and Large at once.
+ *
+ * 3. What is the difference between a JCheckBox and a JRadioButton?
+ * A JCheckBox is an independent on/off choice, and several can be ticked
+ * together. A JRadioButton is used when the user must pick one option
+ * from a set, and the other options are deselected automatically.
+ *
+ * 4. What is the purpose of an ActionListener?
+ * An ActionListener waits for an action, such as a button click or menu
+ * selection, and runs the actionPerformed method when it happens. This
+ * is how the program responds to what the user does.
+ *
+ * 5. Why is input validation important?
+ * It checks that the data is usable before the program works with it.
+ * This prevents blank or incorrect orders and stops errors later on.
+ *
+ * 6. Why is the order summary text area set to non-editable?
+ * The summary is output that the program generates, not input from the
+ * user. Making it non-editable stops anyone changing the order details
+ * by accident after they are displayed.
+ *
+ * 7. What is the difference between designing a form in NetBeans Design
+ * view and writing its event-handling code?
+ * Design view is where the layout is built by placing and setting up
+ * components, and NetBeans generates the layout code for this. The
+ * event-handling code is written by hand and decides what happens when
+ * the user clicks a button or selects a menu item.
+ *
+ * 8. Why should the same Clear Form logic ideally be placed in a
+ * reusable method?
+ * The button and the menu item do the same thing, so one clearForm()
+ * method avoids repeating code. If the reset needs to change later, it
+ * only has to be fixed in one place.
+ *
+ * 9. What could happen if the application tries to generate an order
+ * without validating the customer's input?
+ * It could produce an order with no customer name, which makes the
+ * order useless to the cafe. In a larger system, missing data could also
+ * cause errors or wrong records.
+ *
+ * 10. How could the application be improved to make it more useful to a
+ * real cafe?
+ * It could show meal prices and calculate a total, with extra charges
+ * for size and extras like cheese. It could also save receipts to a
+ * file, keep a record of all orders, and have a cleaner layout using
+ * panels and layout managers.
+ */
+
 }
+
+
